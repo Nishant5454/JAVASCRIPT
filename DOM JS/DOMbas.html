@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM1</title> 
+
+</head>
+<body> 
+<!--ID-->  
+<p id="TWEET"> <span>Hello</span>Namste JS</p>   
+<ul> 
+    <li class="tech">Nishant</li>
+    <li class="tech">Kunal</li>
+    <li class="tech">Raj</li>
+</ul> 
+<h2>Nishant</h2> 
+<h3>Kunal</h3> 
+<!--Query--> 
+<h2 class="ig">Hello</h2> 
+<h2 id="yu">Hola</h2>
+<script>  
+let TWEET=document.getElementById("TWEET");
+console.log(TWEET.innerText); 
+let tech=document.getElementsByClassName("tech");
+console.log(tech[2].innerText); 
+let verse=document.getElementsByTagName("h2");
+console.log(verse);  
+
+verse[0].style.color="red"; 
+let ty=document.querySelector(".ig");
+console.log(ty); 
+ty.className="Anurag"; 
+ty.classList="PW Skill is A good platform for learn" 
+ty.setAttribute("title","ALAKH");
+
+</script>
+</body>
+</html>

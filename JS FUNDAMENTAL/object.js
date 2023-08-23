@@ -46,7 +46,7 @@ console.log(p);
  console.log(z); 
  const l=Object.entries(es); 
  console.log(l);  
- delete es.ip; 
+ delete es.ip; //IP GET DELETD; 
  console.log(es);
  Object.freeze(es)//UPDATION IS NOT ALLOWED 
  es.ip=354; 
