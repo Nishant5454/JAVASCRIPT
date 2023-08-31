@@ -1,4 +1,4 @@
-/*function even(x){ 
+function even(x){ 
     try{ 
         if(x%2==0){ 
             console.log("Even");
@@ -34,7 +34,7 @@ function prime(x){
     
 }
 (prime(11)); 
-*/ 
+
 function isprime(x){ 
     try{ 
         for(let i=2;i<x-1;i++){ 
