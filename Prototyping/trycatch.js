@@ -13,7 +13,7 @@
     }
 } 
 console.log(even(11));  
-*/ 
+
 function prime(x){ 
     try{ 
         for(let i=2;i<=x/2;i++){ 
@@ -33,4 +33,24 @@ function prime(x){
         }
     
 }
-(prime(11));
+(prime(11)); 
+*/ 
+function isprime(x){ 
+    try{ 
+        for(let i=2;i<x-1;i++){ 
+            if(x%i==0) 
+            throw new Error("Not a prime");
+        
+        else 
+        return prime;
+
+    } 
+}
+    catch{
+        console.log("Handled");
+    } 
+    finally{ 
+        console.log("End");
+    } 
+    } 
+    console.log(isprime(11));
