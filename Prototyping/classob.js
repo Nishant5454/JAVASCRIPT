@@ -46,5 +46,6 @@ const i1=new product("vivo",1000);  //Consturctor calling
 console.log(i1); 
 console.log(i1.price); 
 i1.price=200; 
-console.log(i1.price);//Value is Updated here
+console.log(i1.price);//Value is Updated here 
+
 
