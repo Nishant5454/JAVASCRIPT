@@ -5,7 +5,8 @@ console.log(arr2);
 function array(){ 
     let args=Array.from(arguments); 
     const three=args.map(el=>el*3); 
-    console.log(three);
+    console.log(three); 
+    
     
 }
 array(2,3,4); 
@@ -22,4 +23,11 @@ const newheros=["batman",...heros,"Nihs"];
 console.log(newheros); 
 const alumni="Nishant"; 
 console.log([...alumni]); 
-// ....spread a string or array
+// ....spread a string or array 
+function myname(x){ 
+constructor(n,p){ 
+    this.name=n; 
+    this.price=p;
+} 
+const i1=myname.pr("kunal kush" 1000); 
+console.log(i1); 
