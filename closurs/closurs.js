@@ -1,4 +1,4 @@
-/*function myname(){ 
+function myname(){ 
     const name="nishant"; 
     function display(){ 
         console.log(name);
@@ -9,8 +9,8 @@
 
 const myfun=myname();   
 myfun();  
-*/
-/*function outerfun(){ 
+
+function outerfun(){ 
     let outerval="value"; 
     function inner(){ 
         console.log(outerval);
@@ -24,7 +24,7 @@ setInterval(function callback(){
 },2000);  
 
  
-const e=20; 
+const e=20;
 function sum(a){ 
     return function(b){ 
         return function(c){ 
@@ -39,7 +39,7 @@ function sum(a){
 
 } 
 console.log(sum(1)(2)(3)(4)); 
-*/ 
+
 const e=10; 
 function sum(a){ 
   return  function sum2(b){ 
